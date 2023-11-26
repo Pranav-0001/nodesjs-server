@@ -24,7 +24,8 @@ router.post("/", ValidationSchema, validateRequest, async (req, res) => {
 });
 
 router.get("/",(req,res)=>{
-  res.json({status:"success"})
+
+  res.json({status:"response after a push"})
 })
 
 export default router;
